@@ -1,0 +1,128 @@
+{
+  "meta": {
+    "title": "QRkit — Générateur de QR code gratuit, sans inscription",
+    "description": "Générez des QR codes gratuitement en quelques secondes. URL, WiFi, email, téléphone, vCard et plus. Personnalisez couleurs et logo, exportez en PNG, SVG, JPG ou PDF. Tout dans votre navigateur — sans login, sans serveur."
+  },
+  "header": {
+    "toggleTheme": "Basculer mode clair/sombre",
+    "language": "Langue"
+  },
+  "hero": {
+    "badge": "Sans login · Sans serveur",
+    "title1": "Générez votre",
+    "titleEm": "QR code",
+    "title2": "en quelques secondes.",
+    "subtitle": "Collez votre lien ou texte, personnalisez si vous voulez et exportez. Aussi simple que ça."
+  },
+  "trust": {
+    "free": "100% gratuit",
+    "noLogin": "Sans inscription",
+    "local": "Vos données ne quittent jamais le navigateur"
+  },
+  "tabs": {
+    "url": "URL / Texte",
+    "wifi": "WiFi",
+    "email": "Email",
+    "phone": "Téléphone",
+    "sms": "SMS",
+    "vcard": "vCard"
+  },
+  "forms": {
+    "url": { "text_label": "URL ou texte", "text_ph": "https://exemple.com  ou  n'importe quel texte…" },
+    "wifi": {
+      "ssid_label": "Nom du réseau (SSID)", "ssid_ph": "Mon-WiFi",
+      "pass_label": "Mot de passe", "pass_ph": "••••••••",
+      "enc_label": "Sécurité", "enc_wpa": "WPA/WPA2", "enc_wep": "WEP", "enc_none": "Sans mot de passe"
+    },
+    "email": {
+      "to_label": "À", "to_ph": "quelquun@exemple.com",
+      "subj_label": "Objet (optionnel)", "subj_ph": "Bonjour !",
+      "body_label": "Message (optionnel)", "body_ph": "Écrivez ici…"
+    },
+    "phone": { "num_label": "Numéro de téléphone", "num_ph": "+33 6 12 34 56 78" },
+    "sms": {
+      "num_label": "Numéro", "num_ph": "+33 6 12 34 56 78",
+      "msg_label": "Message (optionnel)", "msg_ph": "Texte du SMS…"
+    },
+    "vcard": {
+      "name_label": "Nom complet", "name_ph": "Marie Dupont",
+      "org_label": "Entreprise (optionnel)", "org_ph": "Acme SARL",
+      "phone_label": "Téléphone", "phone_ph": "+33 6 12 34 56 78",
+      "email_label": "Email", "email_ph": "marie@acme.fr",
+      "url_label": "Site web (optionnel)", "url_ph": "https://acme.fr"
+    }
+  },
+  "customize": {
+    "title": "Personnaliser",
+    "pill": "couleurs · logo · correction · marge",
+    "colors": "Couleurs",
+    "colorFg": "QR",
+    "colorBg": "Fond",
+    "logo": "Logo au centre (optionnel)",
+    "logoChoose": "Choisir une image",
+    "logoRemove": "Retirer",
+    "ec": "Correction d'erreur",
+    "ecL": "Basse (L) — 7%",
+    "ecM": "Moyenne (M) — 15%",
+    "ecQ": "Haute (Q) — 25%",
+    "ecH": "Max (H) — 30%",
+    "margin": "Marge (zone de silence)",
+    "marginDesc": "Espace autour",
+    "marginUnit": "mod.",
+    "hint": "Astuce : utilisez une correction Haute/Max quand vous ajoutez un logo."
+  },
+  "preview": {
+    "empty": "Votre QR code apparaît ici en temps réel.",
+    "alt": "Aperçu du QR code"
+  },
+  "export": {
+    "resolution": "Résolution d'export",
+    "downloadPng": "Télécharger PNG",
+    "svg": "SVG",
+    "jpg": "JPG",
+    "pdf": "PDF",
+    "copy": "Copier l'image",
+    "copied": "Image copiée dans le presse-papiers ✓",
+    "copyFail": "Votre navigateur a bloqué la copie. Utilisez Télécharger.",
+    "pdfFooter": "Généré avec QRkit"
+  },
+  "sections": {
+    "aboutTitle": "Qu'est-ce qu'un QR code ?",
+    "aboutLead": "Un raccourci visuel entre le monde physique et le numérique — pointez simplement la caméra.",
+    "aboutP1": "Un QR code (Quick Response) est un code-barres bidimensionnel capable de stocker bien plus d'informations qu'un code-barres classique. Au lieu de lignes, il utilise une grille de carrés noirs et blancs que la caméra de tout smartphone moderne lit instantanément — sans application supplémentaire.",
+    "aboutP2": "Il peut contenir un lien vers un site, le mot de passe de votre réseau WiFi, un contact complet, un email pré-rempli ou simplement du texte. Les QR codes générés ici sont statiques : l'information est encodée dans l'image elle-même, ils n'expirent donc jamais et fonctionnent pour toujours, même hors ligne.",
+    "casesTitle": "À quoi ça sert",
+    "casesLead": "Quelques-uns des usages les plus courants — tous depuis les onglets en haut.",
+    "case1Title": "Liens et sites web",
+    "case1Desc": "Dirigez les gens vers votre site, menu, portfolio ou réseau social sans taper l'URL.",
+    "case2Title": "WiFi pour les invités",
+    "case2Desc": "Collez un QR sur le mur du café ou chez vous — les invités se connectent sans mémoriser le mot de passe.",
+    "case3Title": "Carte de contact",
+    "case3Desc": "Partagez votre vCard lors d'un événement : nom, téléphone et email enregistrés en un seul scan.",
+    "case4Title": "Supports imprimés",
+    "case4Desc": "Affiches, flyers, emballages et étiquettes : exportez en SVG ou PDF pour une qualité parfaite à toute taille."
+  },
+  "faq": {
+    "title": "Questions fréquentes",
+    "lead": "L'essentiel avant de générer votre premier code.",
+    "q1": "QRkit est-il vraiment gratuit ?",
+    "a1": "Oui, totalement. Pas de login, de compte, de filigrane ni de limite sur le nombre de QR codes que vous pouvez générer et exporter.",
+    "q2": "Mes données sont-elles envoyées à un serveur ?",
+    "a2": "Non. Toute la génération se fait dans votre navigateur, en JavaScript. Ce que vous tapez ne quitte jamais votre appareil — ni le lien, ni le mot de passe WiFi, ni le contact.",
+    "q3": "Les QR codes expirent-ils ?",
+    "a3": "Jamais. Ce sont des codes statiques : l'information vit dans l'image elle-même. Imprimez-les aujourd'hui et ils fonctionneront dans 10 ans.",
+    "q4": "Quel format dois-je exporter ?",
+    "a4": "Utilisez PNG ou JPG pour l'écran et les réseaux sociaux, et SVG ou PDF pour l'impression — ils sont vectoriels et restent nets à toute taille.",
+    "q5": "Puis-je ajouter mon logo ?",
+    "a5": "Oui. Dans « Personnaliser », vous téléchargez une image qui apparaît au centre. Nous recommandons d'augmenter la correction d'erreur à Haute (Q) ou Max (H) pour que le code reste lisible."
+  },
+  "footer": {
+    "tagline": "Générateur de QR codes gratuit.",
+    "sub": "Fait dans le navigateur. Vos données restent avec vous.",
+    "about": "À propos",
+    "faq": "FAQ",
+    "privacy": "Confidentialité",
+    "privacyText": "Confidentialité\n\nQRkit ne collecte ni ne stocke vos données. Toute la génération de QR codes se fait localement dans votre navigateur. Les publicités sont fournies par Google AdSense, qui peut utiliser des cookies — consultez les politiques de Google pour plus de détails."
+  },
+  "ads": { "label": "Publicité" }
+}

@@ -1,0 +1,128 @@
+{
+  "meta": {
+    "title": "QRkit — Free QR code generator, no sign-up",
+    "description": "Generate QR codes for free in seconds. URL, WiFi, email, phone, vCard and more. Customize colors and logo, export to PNG, SVG, JPG or PDF. Everything in your browser — no login, no server."
+  },
+  "header": {
+    "toggleTheme": "Toggle light/dark mode",
+    "language": "Language"
+  },
+  "hero": {
+    "badge": "No login · No server",
+    "title1": "Generate your",
+    "titleEm": "QR code",
+    "title2": "in seconds.",
+    "subtitle": "Paste your link or text, customize it if you like and export. Simple as that."
+  },
+  "trust": {
+    "free": "100% free",
+    "noLogin": "No sign-up",
+    "local": "Your data never leaves your browser"
+  },
+  "tabs": {
+    "url": "URL / Text",
+    "wifi": "WiFi",
+    "email": "Email",
+    "phone": "Phone",
+    "sms": "SMS",
+    "vcard": "vCard"
+  },
+  "forms": {
+    "url": { "text_label": "URL or text", "text_ph": "https://example.com  or  any text…" },
+    "wifi": {
+      "ssid_label": "Network name (SSID)", "ssid_ph": "My-WiFi",
+      "pass_label": "Password", "pass_ph": "••••••••",
+      "enc_label": "Security", "enc_wpa": "WPA/WPA2", "enc_wep": "WEP", "enc_none": "No password"
+    },
+    "email": {
+      "to_label": "To", "to_ph": "someone@example.com",
+      "subj_label": "Subject (optional)", "subj_ph": "Hello!",
+      "body_label": "Message (optional)", "body_ph": "Type here…"
+    },
+    "phone": { "num_label": "Phone number", "num_ph": "+1 555 123 4567" },
+    "sms": {
+      "num_label": "Number", "num_ph": "+1 555 123 4567",
+      "msg_label": "Message (optional)", "msg_ph": "SMS text…"
+    },
+    "vcard": {
+      "name_label": "Full name", "name_ph": "Jane Doe",
+      "org_label": "Company (optional)", "org_ph": "Acme Inc.",
+      "phone_label": "Phone", "phone_ph": "+1 555 123 4567",
+      "email_label": "Email", "email_ph": "jane@acme.com",
+      "url_label": "Website (optional)", "url_ph": "https://acme.com"
+    }
+  },
+  "customize": {
+    "title": "Customize",
+    "pill": "colors · logo · correction · margin",
+    "colors": "Colors",
+    "colorFg": "QR",
+    "colorBg": "Background",
+    "logo": "Center logo (optional)",
+    "logoChoose": "Choose image",
+    "logoRemove": "Remove",
+    "ec": "Error correction",
+    "ecL": "Low (L) — 7%",
+    "ecM": "Medium (M) — 15%",
+    "ecQ": "High (Q) — 25%",
+    "ecH": "Max (H) — 30%",
+    "margin": "Margin (quiet zone)",
+    "marginDesc": "Space around",
+    "marginUnit": "mod.",
+    "hint": "Tip: use High/Max correction when you add a logo."
+  },
+  "preview": {
+    "empty": "Your QR code appears here in real time.",
+    "alt": "QR code preview"
+  },
+  "export": {
+    "resolution": "Export resolution",
+    "downloadPng": "Download PNG",
+    "svg": "SVG",
+    "jpg": "JPG",
+    "pdf": "PDF",
+    "copy": "Copy image",
+    "copied": "Image copied to clipboard ✓",
+    "copyFail": "Your browser blocked copying. Use Download instead.",
+    "pdfFooter": "Generated with QRkit"
+  },
+  "sections": {
+    "aboutTitle": "What is a QR code?",
+    "aboutLead": "A visual shortcut between the physical and digital world — just point your camera.",
+    "aboutP1": "A QR code (Quick Response) is a two-dimensional barcode that can store far more information than a traditional barcode. Instead of lines, it uses a grid of black and white squares that any modern smartphone camera reads instantly — no extra app needed.",
+    "aboutP2": "It can hold a website link, your WiFi password, a full contact, a pre-filled email or just text. The QR codes generated here are static: the information is encoded in the image itself, so they never expire and work forever, even offline.",
+    "casesTitle": "What it's for",
+    "casesLead": "Some of the most common uses — all from the tabs at the top.",
+    "case1Title": "Links and websites",
+    "case1Desc": "Send people to your website, menu, portfolio or social profile without typing the URL.",
+    "case2Title": "Guest WiFi",
+    "case2Desc": "Stick a QR on the café wall or at home — guests connect without memorizing the password.",
+    "case3Title": "Contact card",
+    "case3Desc": "Share your vCard at an event: name, phone and email saved with a single scan.",
+    "case4Title": "Print materials",
+    "case4Desc": "Posters, flyers, packaging and labels: export to SVG or PDF for perfect quality at any size."
+  },
+  "faq": {
+    "title": "Frequently asked questions",
+    "lead": "The essentials before generating your first code.",
+    "q1": "Is QRkit really free?",
+    "a1": "Yes, completely. No login, account, watermark or limit on how many QR codes you can generate and export.",
+    "q2": "Is my data sent to any server?",
+    "a2": "No. All generation happens inside your browser, in JavaScript. What you type never leaves your device — not the link, not the WiFi password, not the contact.",
+    "q3": "Do QR codes expire?",
+    "a3": "Never. They are static codes: the information lives in the image itself. Print them today and they will work 10 years from now.",
+    "q4": "Which format should I export?",
+    "a4": "Use PNG or JPG for screen and social media, and SVG or PDF for print — they are vector and stay sharp at any size.",
+    "q5": "Can I add my logo?",
+    "a5": "Yes. Under \"Customize\" you upload an image that appears in the center. We recommend raising error correction to High (Q) or Max (H) so the code stays readable."
+  },
+  "footer": {
+    "tagline": "Free QR code generator.",
+    "sub": "Made in the browser. Your data stays with you.",
+    "about": "About",
+    "faq": "FAQ",
+    "privacy": "Privacy",
+    "privacyText": "Privacy\n\nQRkit does not collect or store your data. All QR code generation happens locally in your browser. Ads are served by Google AdSense, which may use cookies — see Google's policies for details."
+  },
+  "ads": { "label": "Advertisement" }
+}
