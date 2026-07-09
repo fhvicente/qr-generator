@@ -68,6 +68,7 @@ export default async function LocaleLayout({
   return (
     <html lang={locale} className={`${display.variable} ${body.variable}`} suppressHydrationWarning>
       <head>
+        <meta name="google-adsense-account" content="ca-pub-6866467406837695" />
         {/*
           Define o tema ANTES da pintura para evitar flash.
           Lê preferência guardada ou prefers-color-scheme.
