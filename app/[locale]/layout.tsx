@@ -78,10 +78,11 @@ export default async function LocaleLayout({
             __html: `(function(){try{var t=localStorage.getItem('qrkit-theme')||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light');document.documentElement.setAttribute('data-theme',t);}catch(e){}})();`,
           }}
         />
-        {/*
-          GOOGLE ADSENSE — descomenta e troca ca-pub-XXXXXXXXXXXXXXXX pelo teu publisher ID.
-          <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX" crossOrigin="anonymous"></script>
-        */}
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6866467406837695"
+          crossOrigin="anonymous"
+        />
       </head>
       <body className="font-body antialiased">
         <NextIntlClientProvider messages={messages}>{children}</NextIntlClientProvider>
